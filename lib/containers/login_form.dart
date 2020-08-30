@@ -91,7 +91,7 @@ class LoginFormState extends State<LoginForm> {
             elevation: 5.0,
             minWidth: 200.0,
             height: 42.0,
-            color: Colors.purple,
+            color: Theme.of(context).accentColor,
             child: Text('Login',
                 style: TextStyle(fontSize: 20.0, color: Colors.white)),
             onPressed: () {

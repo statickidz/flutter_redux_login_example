@@ -15,15 +15,12 @@ class App extends StatelessWidget {
     return StoreProvider<AppState>(
         store: store,
         child: MaterialApp(
-            title: 'FB',
+            title: 'FlutterReduxLogin',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
-              brightness: Brightness.dark,
-              primaryColor: Colors.purple[900],
-              accentColor: Colors.white
-            ),
-            darkTheme: ThemeData(
-              brightness: Brightness.dark
+              brightness: Brightness.light,
+              primaryColor: Colors.lightBlue[800],
+              accentColor: Colors.cyan[600],
             ),
             routes: <String, WidgetBuilder>{
               '/': (BuildContext context) => MainScreen()

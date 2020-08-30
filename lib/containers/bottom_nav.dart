@@ -13,7 +13,6 @@ class BottomNav extends StatelessWidget {
       converter: (Store<AppState> store) => _ViewModel.fromStore(store),
       builder: (BuildContext context, _ViewModel viewModel) {
         return BottomNavigationBar(
-          backgroundColor: Theme.of(context).primaryColor,
           currentIndex: viewModel.selectedBottomNav,
           onTap: viewModel.onBottomNavSelected,
           items: _getItems(),

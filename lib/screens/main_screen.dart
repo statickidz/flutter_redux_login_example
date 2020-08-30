@@ -17,13 +17,7 @@ class MainScreen extends StatelessWidget {
     return AppBar(
       title: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Image.asset(
-            'assets/logo.png',
-            fit: BoxFit.contain,
-            height: 32,
-          )
-        ],
+        children: [Text('Flutter Redux Login')],
       ),
     );
   }
