@@ -1,6 +1,6 @@
 # flutter_redux_login_example
 
-<img src="assets/screenshot.png">
+<img width="230" src="assets/screenshot.png">
 
 ## Run
 
